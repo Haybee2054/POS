@@ -23,9 +23,9 @@ btn.addEventListener('click', function () {
         interest: interest.value
     }
 
-    if(check.value !== true) {
+    if(check.checked !== true) {
         alert("Agree to policy before submit")
     }
     localStorage.setItem('data', JSON.stringify(payload))
-    console.log("payload", payload)
+    alert("All Data saved successfully")
 })
