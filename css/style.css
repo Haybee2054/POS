@@ -1,0 +1,117 @@
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+  color: #00b8de;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.introduce {
+  margin-top: -10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.p2 {
+  text-align: center;
+  font-size: 8px;
+  letter-spacing: 3px;
+  color: #00b8de;
+}
+
+img {
+  width: 20rem;
+}
+.herodiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  flex-direction: row;
+  display: inline-flex;
+}
+
+.icons1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.icons1 svg {
+    border-radius: 50%;
+    border: 1px solid #00b8de;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.icons1 h3 {
+    font-size: 8px;
+}
+
+.form {
+    width: fit-content;
+}
+
+.form-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-head h2 {
+    color: #00425f;
+    margin-bottom: -10px;
+    font-size: 21px;
+}
+
+.form-head h4 {
+    font-size: 14px;
+}
+
+label {
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.6;
+}
+.input {
+  margin-bottom: 15px;
+}
+
+.field {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px solid red;
+}
+
+.submit {
+  width: 100%;
+  height: 40px;
+  background: #0275d8;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
